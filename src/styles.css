@@ -136,15 +136,12 @@ body {
   height: 100vh;
 
   display: grid;
-  place-items:center;
+  place-items: center;
 }
-
 
 .card-container {
-
   background-color: lightgrey;
 }
-
 
 .form {
   display: flex;
@@ -159,7 +156,7 @@ body {
   padding: 0 0.5rem 0.5rem 0.5rem;
 } */
 
-.submit-btn {
+#submit-btn {
   margin: 0.5rem 1rem 0.5rem 1rem;
 }
 
@@ -171,11 +168,13 @@ body {
 
 .card-header {
   padding: 1rem 0.5rem 1em 0.5rem;
-  font-weight:700;
-  background-color: #A3C4BC;
+  font-weight: 700;
+  background-color: #a3c4bc;
   padding: 0.5rem;
-  
 }
 
 /* ---------------------------------------- Style ---------------------------- */
 
+input:invalid:required {
+  border-color: red;
+}

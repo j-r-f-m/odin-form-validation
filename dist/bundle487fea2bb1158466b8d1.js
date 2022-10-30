@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: \"\";\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\n/* -------------------------------------------------------------------------- */\n\n/* ------------------------------------ Layout ------------------------------ */\nbody {\n  font-family: sans-serif;\n  height: 100vh;\n\n  display: grid;\n  place-items:center;\n}\n\n\n.card-container {\n\n  background-color: lightgrey;\n}\n\n\n.form {\n  display: flex;\n  flex-direction: column;\n}\n\n/* label{\n  padding: 0.5rem 0.5rem 0 0.5rem;\n} */\n\n/* input {\n  padding: 0 0.5rem 0.5rem 0.5rem;\n} */\n\n.submit-btn {\n  margin: 0.5rem 1rem 0.5rem 1rem;\n}\n\n.input-container {\n  display: flex;\n  flex-direction: column;\n  padding: 0.25rem 0.5rem 0 0.5rem;\n}\n\n.card-header {\n  padding: 1rem 0.5rem 1em 0.5rem;\n  font-weight:700;\n  background-color: #A3C4BC;\n  padding: 0.5rem;\n  \n}\n\n/* ---------------------------------------- Style ---------------------------- */\n\n", "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;;;CAGC;;AAED;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAiFE,SAAS;EACT,UAAU;EACV,SAAS;EACT,eAAe;EACf,aAAa;EACb,wBAAwB;AAC1B;AACA,gDAAgD;AAChD;;;;;;;;;;;EAWE,cAAc;AAChB;AACA;EACE,cAAc;AAChB;AACA;;EAEE,gBAAgB;AAClB;AACA;;EAEE,YAAY;AACd;AACA;;;;EAIE,WAAW;EACX,aAAa;AACf;AACA;EACE,yBAAyB;EACzB,iBAAiB;AACnB;;AAEA,+EAA+E;;AAE/E,+EAA+E;AAC/E;EACE,uBAAuB;EACvB,aAAa;;EAEb,aAAa;EACb,kBAAkB;AACpB;;;AAGA;;EAEE,2BAA2B;AAC7B;;;AAGA;EACE,aAAa;EACb,sBAAsB;AACxB;;AAEA;;GAEG;;AAEH;;GAEG;;AAEH;EACE,+BAA+B;AACjC;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,gCAAgC;AAClC;;AAEA;EACE,+BAA+B;EAC/B,eAAe;EACf,yBAAyB;EACzB,eAAe;;AAEjB;;AAEA,gFAAgF","sourcesContent":["/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: \"\";\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\n/* -------------------------------------------------------------------------- */\n\n/* ------------------------------------ Layout ------------------------------ */\nbody {\n  font-family: sans-serif;\n  height: 100vh;\n\n  display: grid;\n  place-items:center;\n}\n\n\n.card-container {\n\n  background-color: lightgrey;\n}\n\n\n.form {\n  display: flex;\n  flex-direction: column;\n}\n\n/* label{\n  padding: 0.5rem 0.5rem 0 0.5rem;\n} */\n\n/* input {\n  padding: 0 0.5rem 0.5rem 0.5rem;\n} */\n\n.submit-btn {\n  margin: 0.5rem 1rem 0.5rem 1rem;\n}\n\n.input-container {\n  display: flex;\n  flex-direction: column;\n  padding: 0.25rem 0.5rem 0 0.5rem;\n}\n\n.card-header {\n  padding: 1rem 0.5rem 1em 0.5rem;\n  font-weight:700;\n  background-color: #A3C4BC;\n  padding: 0.5rem;\n  \n}\n\n/* ---------------------------------------- Style ---------------------------- */\n\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: \"\";\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\n/* -------------------------------------------------------------------------- */\n\n/* ------------------------------------ Layout ------------------------------ */\nbody {\n  font-family: sans-serif;\n  height: 100vh;\n\n  display: grid;\n  place-items: center;\n}\n\n.card-container {\n  background-color: lightgrey;\n}\n\n.form {\n  display: flex;\n  flex-direction: column;\n}\n\n/* label{\n  padding: 0.5rem 0.5rem 0 0.5rem;\n} */\n\n/* input {\n  padding: 0 0.5rem 0.5rem 0.5rem;\n} */\n\n#submit-btn {\n  margin: 0.5rem 1rem 0.5rem 1rem;\n}\n\n.input-container {\n  display: flex;\n  flex-direction: column;\n  padding: 0.25rem 0.5rem 0 0.5rem;\n}\n\n.card-header {\n  padding: 1rem 0.5rem 1em 0.5rem;\n  font-weight: 700;\n  background-color: #a3c4bc;\n  padding: 0.5rem;\n}\n\n/* ---------------------------------------- Style ---------------------------- */\n\ninput:invalid:required {\n  border-color: red;\n}\n", "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA;;;CAGC;;AAED;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAiFE,SAAS;EACT,UAAU;EACV,SAAS;EACT,eAAe;EACf,aAAa;EACb,wBAAwB;AAC1B;AACA,gDAAgD;AAChD;;;;;;;;;;;EAWE,cAAc;AAChB;AACA;EACE,cAAc;AAChB;AACA;;EAEE,gBAAgB;AAClB;AACA;;EAEE,YAAY;AACd;AACA;;;;EAIE,WAAW;EACX,aAAa;AACf;AACA;EACE,yBAAyB;EACzB,iBAAiB;AACnB;;AAEA,+EAA+E;;AAE/E,+EAA+E;AAC/E;EACE,uBAAuB;EACvB,aAAa;;EAEb,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,2BAA2B;AAC7B;;AAEA;EACE,aAAa;EACb,sBAAsB;AACxB;;AAEA;;GAEG;;AAEH;;GAEG;;AAEH;EACE,+BAA+B;AACjC;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,gCAAgC;AAClC;;AAEA;EACE,+BAA+B;EAC/B,gBAAgB;EAChB,yBAAyB;EACzB,eAAe;AACjB;;AAEA,gFAAgF;;AAEhF;EACE,iBAAiB;AACnB","sourcesContent":["/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block;\n}\nbody {\n  line-height: 1;\n}\nol,\nul {\n  list-style: none;\n}\nblockquote,\nq {\n  quotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: \"\";\n  content: none;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\n\n/* -------------------------------------------------------------------------- */\n\n/* ------------------------------------ Layout ------------------------------ */\nbody {\n  font-family: sans-serif;\n  height: 100vh;\n\n  display: grid;\n  place-items: center;\n}\n\n.card-container {\n  background-color: lightgrey;\n}\n\n.form {\n  display: flex;\n  flex-direction: column;\n}\n\n/* label{\n  padding: 0.5rem 0.5rem 0 0.5rem;\n} */\n\n/* input {\n  padding: 0 0.5rem 0.5rem 0.5rem;\n} */\n\n#submit-btn {\n  margin: 0.5rem 1rem 0.5rem 1rem;\n}\n\n.input-container {\n  display: flex;\n  flex-direction: column;\n  padding: 0.25rem 0.5rem 0 0.5rem;\n}\n\n.card-header {\n  padding: 1rem 0.5rem 1em 0.5rem;\n  font-weight: 700;\n  background-color: #a3c4bc;\n  padding: 0.5rem;\n}\n\n/* ---------------------------------------- Style ---------------------------- */\n\ninput:invalid:required {\n  border-color: red;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -613,10 +613,112 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ "./src/styles.css");
 
 
-console.log("lol");
+// select inputs of the form
+const email = document.getElementById("email");
+const country = document.getElementById("country");
+const zipCode = document.getElementById("zip-code");
+const password = document.getElementById("password");
+const passwordConfirm = document.getElementById("password-confirmation");
+const submitBtn = document.getElementById("submit-btn");
+
+/**
+ * display error message
+ *
+ * @param {object} inputObj input object that receives the error message
+ * @param {string} errorMessage that is displayed
+ */
+const inputMessage = (inputObj, errorMessage) => {
+  // set error message
+  inputObj.setCustomValidity(errorMessage);
+  // display error messsage
+  inputObj.reportValidity();
+};
+
+/**
+ *
+ * @param {string} passwordValue choose password
+ * @param {string} passwordConfirmValue repeat password
+ * @returns boolean
+ */
+const confirmPassword = (passwordValue, passwordConfirmValue) => {
+  // check if passwords match
+  if (passwordValue === passwordConfirmValue) {
+    return true;
+  }
+  return false;
+};
+
+email.addEventListener("input", () => {
+  // typeMismatch is true when input is not in the required syntax (e.g. email
+  // or url)
+  if (email.validity.typeMismatch) {
+    inputMessage(email, "Please enter a valid email address!");
+  } else {
+    // if input is in required syntax use empty string as argument
+    // as long as the error message is not empty it will not be submitted
+    email.setCustomValidity("");
+  }
+});
+
+country.addEventListener("input", () => {
+  if (country.validity.patternMismatch) {
+    inputMessage(country, "Please use alphabetic characters!");
+  } else {
+    country.setCustomValidity("");
+  }
+});
+
+zipCode.addEventListener("input", () => {
+  if (zipCode.validity.patternMismatch) {
+    inputMessage(zipCode, "Please enter 5 digits!");
+  } else {
+    zipCode.setCustomValidity("");
+  }
+});
+
+password.addEventListener("input", () => {
+  if (password.validity.patternMismatch) {
+    inputMessage(
+      password,
+      "Requirements: 1 uppercase char, 1 lowercase char, 1 number, at least 8 char, 1 num"
+    );
+  } else {
+    password.setCustomValidity("");
+  }
+});
+
+passwordConfirm.addEventListener("input", () => {
+  if (!confirmPassword(password.value, passwordConfirm.value)) {
+    inputMessage(passwordConfirm, "Please repeat password!");
+  } else {
+    passwordConfirm.setCustomValidity("");
+  }
+});
+
+submitBtn.addEventListener("click", (e) => {
+  if (!email.validity.valid) {
+    inputMessage(email, "Please enter a valid email address!");
+    e.preventDefault();
+  } else if (!country.validity.valid) {
+    inputMessage(country, "Please use alphabetic characters!");
+    e.preventDefault();
+  } else if (!zipCode.validity.valid) {
+    inputMessage(zipCode, "Please enter 5 digits!");
+    e.preventDefault();
+  } else if (!password.validity.valid) {
+    inputMessage(
+      password,
+      "Requirements: 1 uppercase char, 1 lowercase char, 1 number, at least 8 char, 1 num"
+    );
+    e.preventDefault();
+  } else if (!confirmPassword(password.value, passwordConfirm.value)) {
+    inputMessage(passwordConfirm, "Please repeat password!");
+    e.preventDefault();
+  }
+});
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle46b3e85b6c3445c6e972.js.map
+//# sourceMappingURL=bundle487fea2bb1158466b8d1.js.map

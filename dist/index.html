@@ -5,39 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  <script defer src="bundle46b3e85b6c3445c6e972.js"></script></head>
+  <script defer src="bundle487fea2bb1158466b8d1.js"></script></head>
   <body>
     <div class="card-container">
       <div class="card-header">Sign Up</div>
       <div class="card-body">
-        <form action="" class="form">
+        <!-- 
+        novalidate -> turn of the browser's automatic validation  
+        we can now use our own validation
+        -->
+        <form action="" class="form" novalidate autocomplete="off">
           <div class="input-container">
             <label for="email">E-Mail:</label>
-            <input type="text" id="email" name="email">
+            <input type="email" id="email" name="email" required>
           </div>
 
           <div class="input-container">
             <label for="country">Country: </label>
-            <input type="text" id="country" name="country">
+            <input type="text" id="country" name="country" required pattern="[A-Za-z]+">
           </div>
 
           <div class="input-container">
             <label for="zip-code">Zip-Code</label>
-            <input type="text" id="zip-code" name="zip-code">
+            <input type="text" id="zip-code" name="zip-code" required pattern="[0-9]{5}">
           </div>
 
           <div class="input-container">
             <label for="password">Password:</label>
-            <input type="text" id="password" name="password">
+            <input type="text" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
           </div>
 
           <div class="input-container">
             <label for="password-confirmation">Confirm Password:</label>
-            <input type="text" id="password-confirmation" name="password-confirmation">
+            <input type="text" id="password-confirmation" name="password-confirmation" required>
           </div>
 
+          <button id="submit-btn">Submit</button>
 
-          <input type="submit" value="Send Request" class="submit-btn"/>
+          <!-- <input type="submit" value="Send Request" class="submit-btn"/> -->
         </form>
       </div>
       
